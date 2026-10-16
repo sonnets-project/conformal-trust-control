@@ -1,0 +1,39 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.ipynb_checkpoints/
+.pytest_cache/
+.matplotlib/
+*.egg-info/
+.env
+.env.*
+# Licensed inputs and experiment workspaces are never release contents.
+*.parquet
+*.npz
+*.npy
+*.pt
+# Published residual policies are checked against pretrained/manifest.json.
+!/pretrained/*/*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*_actor
+*_scaler
+/data/*
+!/data/README.md
+/new-reward/checkpoints/
+/new-reward/data/
+/new-reward/include/
+/new-reward/settings/
+/private/
+/workspaces/
+/results/generated/
+*.log
+
+# Local runtime and derived results.
+/.runtime/
+/results/*
+!/results/reference/

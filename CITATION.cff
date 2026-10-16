@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying ICAIF paper."
+type: software
+title: "Conformal Trust Control"
+authors:
+  - family-names: Li
+    given-names: Jiajun
+  - family-names: Guo
+    given-names: Ce
+  - family-names: Luk
+    given-names: Wayne
+repository-code: "https://github.com/sonnets-project/conformal-trust-control"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Conformal Trust Control for Learned Sequential Policies under Regime Shift"
+  authors:
+    - family-names: Li
+      given-names: Jiajun
+    - family-names: Guo
+      given-names: Ce
+    - family-names: Luk
+      given-names: Wayne
+  year: 2026
+  conference:
+    name: "7th ACM International Conference on AI in Finance (ICAIF '26)"
+  doi: "10.1145/3858063.3858769"

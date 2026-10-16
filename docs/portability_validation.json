@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.16.2",
+    "torch": "2.8.0",
+    "pyarrow": "23.0.0"
+  },
+  "unit_tests": 16,
+  "notebook_code_cells_parsed": 121,
+  "empirical_runtime_comparison": {
+    "test_year": 2022,
+    "contract_paths_identical": true,
+    "benchmark_action": "Black-Scholes",
+    "episodes": 675,
+    "steps": 3375,
+    "maximum_absolute_difference": {
+      "T": 0.0,
+      "S/K": 0.0,
+      "DateStep": 0.0,
+      "B Reward": 0.0,
+      "A Reward": 0.0,
+      "A PnL": 0.0,
+      "B PnL": 0.0,
+      "P0": 0.0,
+      "P-1": 0.0,
+      "S0": 0.0,
+      "S-1": 0.0,
+      "A Pos": 0.0,
+      "B Pos": 0.0,
+      "A TC": 0.0,
+      "B TC": 0.0,
+      "A PnL - TC": 0.0,
+      "B PnL - TC": 0.0,
+      "v": 0.0
+    }
+  },
+  "empirical_training_smoke": {
+    "test_year": 2018,
+    "train_episodes_constructed": 2053,
+    "validation_episodes_constructed": 516,
+    "test_episodes_constructed": 602,
+    "reward_replay_gate": "PASS",
+    "training_episodes": 24,
+    "epochs": 8,
+    "finite_training_outputs": true
+  },
+  "full_workflow_smoke": {
+    "status": "PASS",
+    "data": "synthetic",
+    "epochs": 2,
+    "bootstrap_replicates": 20,
+    "elapsed_seconds": 118.99,
+    "completed_stages": [
+      "layer1",
+      "controls-crash_test2018",
+      "controls-crash_test2020",
+      "controls-mix_test2022",
+      "controls-mix_test2024",
+      "three-arm",
+      "common-budget",
+      "robustness",
+      "analysis"
+    ],
+    "command": "python scripts/smoke_workflow.py"
+  },
+  "full_empirical_retraining_performed": false,
+  "release_privacy_scan": "PASS",
+  "data_and_runtime_files_git_ignored": true
+}

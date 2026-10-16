@@ -1,0 +1,251 @@
+{
+  "paper": "Conformal Trust Control for Learned Sequential Policies under Regime Shift",
+  "doi": "10.1145/3858063.3858769",
+  "data_scope": "Aggregate experimental statistics; no raw quotes, cleaned panel, individual contracts or per-episode ledgers.",
+  "files": {
+    "figure3_layer1.csv": {
+      "sha256": "daad4986573de2488b6ac3e1ae82a1d8afc1800b69435efee565f295b4a5ebaa",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "beta_star",
+        "full",
+        "full_lo",
+        "full_hi",
+        "win",
+        "tail"
+      ],
+      "source_package": "final_method",
+      "source": "new-reward/checkpoints/unified_v3/panel_v3_summary.csv",
+      "source_sha256": "4c66aceb6bd24460558cb4c5ecb6b76499a353fbb5db3427da7c4dc9538404c2",
+      "selection": "selected aggregate columns"
+    },
+    "table1_classical_baselines.csv": {
+      "sha256": "9d9917d4fc5a36a5aa491dc98d05b6a055c0a6b3d06c2a9b2fa9399eec8ad260",
+      "rows": 16,
+      "columns": [
+        "regime",
+        "comparison",
+        "mean",
+        "lo",
+        "hi",
+        "p_le0"
+      ],
+      "source_package": "final_method",
+      "source": "results/reproduced/classical_baselines_kappa2_consistent.csv",
+      "source_sha256": "1f22085c8132afab5dee2edc70b5c1e75a24a7c6060496a8b1c77e5402f0d4b6",
+      "selection": "all aggregate rows"
+    },
+    "table2_three_arm.csv": {
+      "sha256": "3ae47139050029973f7a64c60997b39d8a3ab90eae1ec8d362eecdd1fbb1fefa",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "indist_mean",
+        "smallood_mean",
+        "ood_mean",
+        "dist_effect",
+        "dist_lo",
+        "dist_hi",
+        "data_effect",
+        "data_lo",
+        "data_hi",
+        "indist_tail",
+        "smallood_tail",
+        "ood_tail"
+      ],
+      "source_package": "final_method",
+      "source": "results/reproduced/paper_table_2_three_arm.csv",
+      "source_sha256": "db8a9b4b533e783ddcf6683c997731be71177726c5f6a2c27dfc3905816c1ceb",
+      "selection": "all aggregate rows"
+    },
+    "table3_deployment_rules.csv": {
+      "sha256": "7da08596b23369a49cbd2bfaa5c345c26513e266b719cd231c41f7f4277dab64",
+      "rows": 24,
+      "columns": [
+        "regime",
+        "regime_key",
+        "regime_year",
+        "kappa",
+        "beta",
+        "rule",
+        "display_name",
+        "budget_mean_bp",
+        "budget_min_bp",
+        "budget_max_bp",
+        "n_episodes",
+        "mean_dpnl_bp",
+        "mean_ci_low",
+        "mean_ci_high",
+        "breach",
+        "feasible_point_estimate",
+        "mean_lambda",
+        "cvar5_bp",
+        "source"
+      ],
+      "source_package": "final_method",
+      "source": "results/published_rules_4regime_v13/published_rules_panel.csv",
+      "source_sha256": "281531df27909628f71403262775174976865559b17b6c743fd49255097ab87b",
+      "selection": "all aggregate rows; display_name uses CTC for crc_rwc_aci; numeric values unchanged"
+    },
+    "table4_aggressive.csv": {
+      "sha256": "fdc7e1749a2c819ecda6418d587e1145eb2ca64710f50f10792c559c578e5751",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "budget_mean_bp",
+        "budget_min_bp",
+        "budget_max_bp",
+        "mean_bp",
+        "mean_ci_low",
+        "mean_ci_high",
+        "breach",
+        "breach_informed",
+        "mean_lambda",
+        "cvar5_bp"
+      ],
+      "source_package": "final_method",
+      "source": "results/warm0_batch_v13/table5_aggressive_validation_budget.csv",
+      "source_sha256": "b4f385978c5de985b392d910b4eb15a11c8716631434008e87149282ce831846",
+      "selection": "all aggregate rows"
+    },
+    "table5_common_budget.csv": {
+      "sha256": "9ba98e64a07c9a3ddbcee62d3a8f051d0857e314fc942ef51974a70cd6934275",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "conservative_mean_bp",
+        "aggressive_mean_bp",
+        "aggressive_minus_conservative_bp",
+        "difference_ci_low",
+        "difference_ci_high",
+        "conservative_breach",
+        "aggressive_breach",
+        "conservative_cvar5_bp",
+        "aggressive_cvar5_bp",
+        "conservative_mean_lambda",
+        "aggressive_mean_lambda"
+      ],
+      "source_package": "final_method",
+      "source": "results/warm0_batch_v13/table6_common_budget.csv",
+      "source_sha256": "c68f573d8bae3b8173840c108407fb7578daedb38428a00a7ec1059038fda5f2",
+      "selection": "all aggregate rows"
+    },
+    "breach_uncertainty.csv": {
+      "sha256": "7f8d96f9161a679186d8e6e2d826702d6dc39acebc083af2b4acdcb21e01a9ae",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "arm",
+        "budget_kind",
+        "contract_point",
+        "worst_seed",
+        "date_equal_weight_point",
+        "date_block_one_sided_95_upper",
+        "iid_wilson_one_sided_95_upper_reference",
+        "start_date_batches"
+      ],
+      "source_package": "final_method",
+      "source": "results/warm0_batch_v13/breach_uncertainty.csv",
+      "source_sha256": "6eb2eab5bd4583c8928e7f411e5083277001a109e7a55fff4493ac20d20ecfbf",
+      "selection": "Table 4 validation-budget aggressive arm (12 rows)"
+    },
+    "sensitivity.csv": {
+      "sha256": "406bfedc9df79c0731b7b7853a67ff064a38be04d4579a72bba8b6fe925a3f34",
+      "rows": 28,
+      "columns": [
+        "config_id",
+        "parameter",
+        "parameter_value",
+        "regime",
+        "kappa",
+        "budget_mean_bp",
+        "budget_min_bp",
+        "budget_max_bp",
+        "mean_bp",
+        "mean_ci_low",
+        "mean_ci_high",
+        "breach",
+        "breach_informed",
+        "worst_seed_breach",
+        "date_equal_weight_breach",
+        "date_block_one_sided_95_upper",
+        "start_date_batches",
+        "mean_lambda",
+        "cvar5_bp",
+        "eps_target",
+        "warmup",
+        "gamma_eps",
+        "half_life_days",
+        "tau_iv",
+        "m_emp",
+        "breach_target_gap",
+        "date_block_upper_target_gap",
+        "point_feasible",
+        "upper_bound_feasible",
+        "mean_change_vs_baseline_bp",
+        "breach_change_vs_baseline",
+        "cvar5_change_vs_baseline_bp"
+      ],
+      "source_package": "final_method",
+      "source": "results/v13_sensitivity/sensitivity_panel.csv",
+      "source_sha256": "0059591d893b96429ba8fb4089a51db48d52375bed4fbc19d1618ce6527b5c9c",
+      "selection": "paper Section 6.6: baseline, half-life, IV bandwidth and ACI step only (28 rows)"
+    },
+    "robustness_tail.csv": {
+      "sha256": "dac80508fb11212ab8a082392141e3315867fba51a77a60ed98b684e093949dd",
+      "rows": 12,
+      "columns": [
+        "regime",
+        "kappa",
+        "n_ep",
+        "mean",
+        "cvar1",
+        "cvar5",
+        "cvar10"
+      ],
+      "source_package": "final_method",
+      "source": "new-reward/report_out/robust_data.csv",
+      "source_sha256": "d57d44b0ca741806e015fb128bd9a86e3795a66223f4379830fbed0d72ddc589",
+      "selection": "all aggregate rows"
+    },
+    "transaction_costs_2022.csv": {
+      "sha256": "64051757c6a52813e4e5295047dc861bb2d3ceb87e3e0f315d2dee990123779a",
+      "rows": 9,
+      "columns": [
+        "kappa",
+        "tc_bp",
+        "kind",
+        "mean",
+        "lo",
+        "hi",
+        "p_le0"
+      ],
+      "source_package": "final_method",
+      "source": "new-reward/checkpoints/conformal_controls_mix_test2022/tc_sweep_mix_test2022.csv",
+      "source_sha256": "c041c387d4a8fc4205adcf026d9507c096811eb13491a534a809bede9a1e8278",
+      "selection": "all aggregate rows"
+    },
+    "turnover_2022.csv": {
+      "sha256": "d8e1bec20ac1f220b5d53cd416e3120d19b48bc9aaf9f7f25a4482e53ee03325",
+      "rows": 3,
+      "columns": [
+        "kappa",
+        "turn_bs_bp",
+        "turn_base_bp",
+        "turn_wild_bp",
+        "d_turn_base_bp",
+        "trades_per_ep_base"
+      ],
+      "source_package": "final_method",
+      "source": "new-reward/checkpoints/conformal_controls_mix_test2022/turnover_mix_test2022.csv",
+      "source_sha256": "5a0b8577a8a05007057043412ca0ba9c80b06383d93f040582db6db6ab94ecaf",
+      "selection": "all aggregate rows"
+    }
+  }
+}

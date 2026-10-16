@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "training_performed": false,
+  "checkpoint_count": 120,
+  "regimes": [
+    "crash_test2018",
+    "crash_test2020",
+    "mix_test2022",
+    "mix_test2024"
+  ],
+  "bootstrap_replicates": 3000,
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.16.2",
+    "torch": "2.8.0"
+  },
+  "inputs": {
+    "cleaned_panel_sha256": "45569cd0360973371677443b66dd87e972f8356dc8625454a405b366e66a2451",
+    "treasury_sha256": "298a3e6e5c8e2c0fbf4386ec92636d5b8e0529997af80aae05770c80f9af36a5",
+    "checkpoint_manifest_sha256": "64b4fdf0a1ef58a1761001726ba59d651e4e3754c11554585da12510b14081e5"
+  },
+  "episode_counts": {
+    "crash_test2018": {
+      "validation": 516,
+      "test": 602
+    },
+    "crash_test2020": {
+      "validation": 597,
+      "test": 663
+    },
+    "mix_test2022": {
+      "validation": 644,
+      "test": 675
+    },
+    "mix_test2024": {
+      "validation": 611,
+      "test": 630
+    }
+  },
+  "inputs_unchanged": true,
+  "elapsed_seconds": 84.793,
+  "outputs_sha256": {
+    "seed_results.csv": "d24e9bb72b4527c0199be5ed026f78c9fe499590b7a339da07853869fb6311a1",
+    "policy_summary.csv": "8e439d51a31c0d327d63954ace47152e957417c79fce5dbcb122adc2a1398338",
+    "table4_aggressive.csv": "815de5fc5e6d4fa073ab9e9345f70975b2a55de27a9e847a188d4cdf97bb3495",
+    "table5_common_budget.csv": "ff89751c3b3cd14575197e316042f898e9d66b0df844cfe2993d149b0ad3759a",
+    "breach_uncertainty.csv": "9d20a8778e01219b357045f1cc88b15c76b480cc3dced4bf5bb24e733941ab07"
+  },
+  "unit_tests": 21,
+  "checkpoint_bytes": 2688120,
+  "checkpoint_archive_comparison": "All 120 files are byte-identical to the original training archive.",
+  "reference_comparison": {
+    "table4_aggressive.csv": {
+      "status": "DIFFERENCES",
+      "rows": 12,
+      "maximum_absolute_difference": {
+        "kappa": 0.0,
+        "budget_mean_bp": 2.1420419216156006e-05,
+        "budget_min_bp": 2.3283064365386963e-05,
+        "budget_max_bp": 2.3515895009040833e-05,
+        "mean_bp": 0.2962491751855474,
+        "mean_ci_low": 0.3870785683707929,
+        "mean_ci_high": 0.567097528278623,
+        "breach": 0.0002962962962963084,
+        "breach_informed": 0.0003081664098612963,
+        "mean_lambda": 0.0022222222222222365,
+        "cvar5_bp": 1.167041545903146
+      }
+    },
+    "table5_common_budget.csv": {
+      "status": "DIFFERENCES",
+      "rows": 12,
+      "maximum_absolute_difference": {
+        "kappa": 0.0,
+        "conservative_mean_bp": 0.000216100845675804,
+        "aggressive_mean_bp": 0.05258224788122057,
+        "aggressive_minus_conservative_bp": 0.05261913232970983,
+        "difference_ci_low": 0.09812786972579524,
+        "difference_ci_high": 0.031485083284785276,
+        "conservative_breach": 0.0,
+        "aggressive_breach": 0.0,
+        "conservative_cvar5_bp": 0.004416887267407965,
+        "aggressive_cvar5_bp": 2.0672538880717184e-06,
+        "conservative_mean_lambda": 0.0,
+        "aggressive_mean_lambda": 7.40740740740875e-05
+      }
+    },
+    "breach_uncertainty.csv": {
+      "status": "DIFFERENCES",
+      "rows": 12,
+      "maximum_absolute_difference": {
+        "kappa": 0.0,
+        "contract_point": 0.0002962962962963084,
+        "worst_seed": 0.0,
+        "date_equal_weight_point": 0.00036776556776560443,
+        "date_block_one_sided_95_upper": 0.0019045787545787923,
+        "iid_wilson_one_sided_95_upper_reference": 0.00030755339995380826,
+        "start_date_batches": 0.0
+      }
+    }
+  },
+  "reference_comparison_notes": [
+    "Execution and checkpoint verification passed; this is not a bitwise match to the published tables.",
+    "The archived episode identities and reconstruction select different contracts in two exactly tied 2022 test selections. The original distance ranking is retained; no performance-based tie rule or private episode manifest is included.",
+    "Entry and completion dates and episode order agree in all four regimes. Other entry-IV differences are below 6.4e-14. In the 2018, 2020 and 2024 test ledgers, maximum counterfactual PnL difference is below 0.0006 bp.",
+    "The original training environment and local evaluation environment use different NumPy, pandas and PyTorch versions. Original aggregate reference tables are preserved separately."
+  ],
+  "clean_copy_workflow": {
+    "status": "PASS",
+    "data": "synthetic",
+    "epochs": 2,
+    "bootstrap_replicates": 20,
+    "pretrained_checkpoints_unchanged": 120,
+    "elapsed_seconds": 131.96
+  },
+  "release_checks": {
+    "unit_tests": 22,
+    "notebook_execution_metadata": "absent",
+    "clean_copy_workflow": {
+      "status": "PASS",
+      "data": "synthetic",
+      "epochs": 2,
+      "bootstrap_replicates": 20,
+      "pretrained_checkpoints_unchanged": 120,
+      "elapsed_seconds": 125.76
+    }
+  }
+}

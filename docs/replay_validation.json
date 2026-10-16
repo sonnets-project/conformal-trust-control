@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "mode": "replay",
+  "training_performed": false,
+  "elapsed_seconds": 50.745,
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.16.2",
+    "matplotlib": "3.10.6"
+  },
+  "reference_manifest_sha256": "826c5b8655e312222669d50d909062a96929b32024003c018c4289b763eb9988",
+  "outputs_sha256": {
+    "figure3_layer1.png": "390c59ef11c30356940b491cba0f5bb51e16c7017b2bf790290439b971097abe",
+    "robust_tail_alpha.csv": "30ef83b0e614ca8d05816f83edfb2e6e05180f7a0d7f0d50e5005ab4618ce3e8",
+    "table5_common_budget.csv": "28706f67253dfc5dd308ebe936b93a5a7c03d81a75f02611c8de1edd54d7c57a",
+    "figure3_layer1.pdf": "9a05af90eee01348e2ad7c75b82ca748b71969626eb75854f6037c123907639d",
+    "table2_three_arm.csv": "db8a9b4b533e783ddcf6683c997731be71177726c5f6a2c27dfc3905816c1ceb",
+    "v13_sensitivity_manifest.json": "417e1bc949b8c1d927268f644d5ee8e27500be58228894bc23309453bc01ec06",
+    "table4_aggressive.csv": "0eb0535214e11b9e7f2bdaca883ab28d3c724ebbc18d946c29bf96f797fc080d",
+    "transaction_costs_2022.csv": "39dbf9bc41b09570c2d8b7f7e375f4b1938e7eff7b308b730ccc00b0911e9ab9",
+    "breach_uncertainty.csv": "581eef8fef5535d50971fc9f260b685cea8dc08e4f19962329610b74135eb9b1",
+    "warm0_batch_v13_manifest.json": "3fc43fac1a5134fbe27a8bfbfc293f91b909f943b2a4a4d8e09bd729d7859856",
+    "table1_classical_baselines.csv": "63108ae5b78672dcb1649b6290ac43ff06ab8eff62512b9d7291cfe9a947ca7a",
+    "table3_deployment_rules.csv": "5f9e8aafbbafe46d9ab49c86ab3a99a5521241cb3acf982c626cc2640e9ddda6",
+    "robust_block.csv": "1670ce54d74f96f9ad42ead76dc85c588a8c22b93ec1527a7d65027a8c0b73c0",
+    "turnover_2022.csv": "94ea094516e92bf878807f83fbe2ef42da89b17bc7cb69fcbdc2fff7dfb8b6a7",
+    "robustness_tail.csv": "75571b0df4fb09bb94aabde989926c7d08c5677d9f38a179c1026f50367e7aa6",
+    "published_rules_4regime_v13_manifest.json": "3c33197b71043a62c6d87966603b70912ff75f7807d404898e4e0872ae237325",
+    "figure3_layer1.csv": "4ca11fd5ff363470ce67ebebd6ee238a1c718b032368a35cf4e7295c00123231",
+    "sensitivity.csv": "ffadde57d85ec1352b40d0d579ac8eb80beacef69e2e4ab0e83fcea46a4ca150"
+  },
+  "numeric_comparisons": {
+    "figure3_layer1.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "table1_classical_baselines.csv": {
+      "rows": 16,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "table2_three_arm.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "table3_deployment_rules.csv": {
+      "rows": 24,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "table4_aggressive.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "table5_common_budget.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "breach_uncertainty.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "sensitivity.csv": {
+      "rows": 28,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "robustness_tail.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "transaction_costs_2022.csv": {
+      "rows": 9,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    "turnover_2022.csv": {
+      "rows": 3,
+      "max_abs_difference": 0.0,
+      "status": "PASS"
+    }
+  },
+  "input_sha256": {
+    "new-reward/checkpoints/unified_v3/panel_v3_summary.csv": "4c66aceb6bd24460558cb4c5ecb6b76499a353fbb5db3427da7c4dc9538404c2",
+    "new-reward/checkpoints/e2_summary.csv": "8da639afa40d740f5f09999a012ea80f5ded1326c77248b6ad89c1e053bb4659",
+    "new-reward/checkpoints/baselines_v3/baselines_v3.csv": "7bc029f020d3719bef045dffc23ea75cceeb736e43fb3fd2cb00c32b5101713c",
+    "new-reward/checkpoints/conformal_controls_mix_test2022/tc_sweep_mix_test2022.csv": "c041c387d4a8fc4205adcf026d9507c096811eb13491a534a809bede9a1e8278",
+    "new-reward/checkpoints/conformal_controls_mix_test2022/turnover_mix_test2022.csv": "5a0b8577a8a05007057043412ca0ba9c80b06383d93f040582db6db6ab94ecaf",
+    "new-reward/checkpoints/conformal_controls_v12r_crash_test2018/ledger_arm00_crash_test2018.npz": "00e99bb1c0ff1f012ef74c26fd6cddfa9bdc3b99eb226c8820bf2e9af7a1b279",
+    "new-reward/checkpoints/conformal_controls_v12r_crash_test2018/ledger_base_crash_test2018.npz": "d27f61b9cbf196ba249dd86f017f99ee990c68d5318b51a9c159499433721f71",
+    "new-reward/checkpoints/conformal_controls_crash_test2018/dpm_arm00.npz": "879cf45b0d87bb7c1053cbe02aa3fc6b8c3d98d22caca93a325894ffffce65c7",
+    "new-reward/checkpoints/conformal_controls_crash_test2018/lampath_arm00.npz": "5fd43a3f96e84db955bd3c3dba18e52a10311d611b5b84a796c787a65f734c4d",
+    "new-reward/checkpoints/conformal_controls_crash_test2018/controls_arms_crash_test2018.csv": "98dfda2bb441687b67ecff53cde3dc3b9c2156b44319add52dccb69c4df40ea3",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2018_k1.csv": "447987d1b2001e81c861db781a75a2b7ec5ff117761d6eec876abe73865dc938",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2018_k2.csv": "16656effc4f68a2d601f07e6c391a0cf108c61dce7effb5797f091ee48bd8de5",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2018_k3.csv": "1333cdcd5f2ab1b0789a9f042c5fc7270280e6d5f8345278fe1fc5635919ae96",
+    "new-reward/checkpoints/conformal_controls_v12r_crash_test2020/ledger_arm00_crash_test2020.npz": "3b85feb06150ffe44844834ae05e331c6d77f45bcc1655da11e9ba1aad851805",
+    "new-reward/checkpoints/conformal_controls_v12r_crash_test2020/ledger_base_crash_test2020.npz": "f1381df93f69dfb120e25908c12a5e3e1eaa013418f2219697456590a69264e5",
+    "new-reward/checkpoints/conformal_controls_crash_test2020/dpm_arm00.npz": "316bcb1aaf33ab6b46d5a025dcaf451bea40041604176e0369e35a8c5eedfde3",
+    "new-reward/checkpoints/conformal_controls_crash_test2020/lampath_arm00.npz": "7c0fa922317a5d6d9d3144e0d680b7892eea412d2324d400080ea886cc1f75c7",
+    "new-reward/checkpoints/conformal_controls_crash_test2020/controls_arms_crash_test2020.csv": "63ddf4d58a0217ceef5ebe84d0a6b1440c325d0c68c966ca627c01cdf131e483",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2020_k1.csv": "6cda2997a524955dbe93c68819dee50b32a86a7cfd3180a59bd65f295d61a446",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2020_k2.csv": "6fcfb2eda20c8b125649e546c8309594d8c34f131fdb753d4e7f0e7d3a51e597",
+    "new-reward/checkpoints/unified_v3/perep_dp_crash_test2020_k3.csv": "f6c8dd5e1831b469661da825380f226d1858fddb4fbe847f1cd923a7cf5e4ab9",
+    "new-reward/checkpoints/conformal_controls_v12r_mix_test2022/ledger_arm00_mix_test2022.npz": "87dbde697535452527764beccf3157b57661a0c38bae2b1afa66edc4ee6f2420",
+    "new-reward/checkpoints/conformal_controls_v12r_mix_test2022/ledger_base_mix_test2022.npz": "d8786f962a57770646c51e1b265241dd906c8f5dbd9427cac284e4b3b1f1957b",
+    "new-reward/checkpoints/conformal_controls_mix_test2022/dpm_arm00.npz": "6ceba8409def9e4ee5d4a821e5af6e0764c2398db5c7dc6fcd455e842bdb43f2",
+    "new-reward/checkpoints/conformal_controls_mix_test2022/lampath_arm00.npz": "a21099f71b13cf50cec36f7608a315b97ac033a30bd6923861d4253bdafe519e",
+    "new-reward/checkpoints/conformal_controls_mix_test2022/controls_arms_mix_test2022.csv": "80a46d34f1cd488c8229f5ac84bbb60360330f5225e587c3e2a123633f2f981d",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2022_k1.csv": "ae00442fb49b042f73794e802d1bee6a8ffd7e4dcec1ce690ba3119358abb32a",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2022_k2.csv": "a4c5c96ffe7342d7392705b1309abf80303d800ce2b84ca851b66f158e99447f",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2022_k3.csv": "0edb53650c910fd84f5297dc98596cfe6da8651fed7e1e9cc8cabfa9a38519e0",
+    "new-reward/checkpoints/conformal_controls_v12r_mix_test2024/ledger_arm00_mix_test2024.npz": "452b253c2019f263906db34f15f51595908741c48a638083d832e060117b5186",
+    "new-reward/checkpoints/conformal_controls_v12r_mix_test2024/ledger_base_mix_test2024.npz": "5d8f0b19623cc0983d5f71378716e9e243a84d5b94ecd9aaeebaa8cf30f6be38",
+    "new-reward/checkpoints/conformal_controls_mix_test2024/dpm_arm00.npz": "4b0521c3a96347a42553794aa888c4e52f9a606b2736fb39f57d374f141fc335",
+    "new-reward/checkpoints/conformal_controls_mix_test2024/lampath_arm00.npz": "ad44f8b714c4adeedba328bdd9061f04adc2416aae4ceabe4009a82203869dcc",
+    "new-reward/checkpoints/conformal_controls_mix_test2024/controls_arms_mix_test2024.csv": "f6e25ace843cf1fe05e52b30bcc71cb04f91ba1898f60cde9a10d04c0cf5228e",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2024_k1.csv": "e797a0b5e11f83f0ac36a679e739daa3f1669aaf416ff1cf7191ee2856d46d08",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2024_k2.csv": "df148ba2cb2cd1225b98d5853b29954830dd682d9172af921ff1f2d0cd649ef8",
+    "new-reward/checkpoints/unified_v3/perep_dp_mix_test2024_k3.csv": "323adb838ecd078bdbafe859ff66239450fb2ef86dda924895c7f011f0da2907"
+  },
+  "private_inputs_unchanged": true,
+  "recomputed": [
+    "Tables 3-5 (grid rules)",
+    "breach bounds",
+    "controller sensitivity",
+    "tail and block robustness"
+  ],
+  "loaded_saved_statistics": [
+    "Figure 3",
+    "Tables 1-2",
+    "transaction-cost and turnover summaries"
+  ],
+  "aci_baseline": "Archived continuous ACI path with the documented warm-up/denominator correction; not newly redeployed."
+}

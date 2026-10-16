@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "paper_title": "Conformal Trust Control for Learned Sequential Policies under Regime Shift",
+  "paper_sha256": "220be0524802c2a474fc878390449c38a603d6b9b2b6c61a7f57a3501a8d31ce",
+  "cleaned_panel": {
+    "rows": 5068896,
+    "first_date": "2007-02-21",
+    "last_date": "2024-12-31",
+    "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "sha256": "45569cd0360973371677443b66dd87e972f8356dc8625454a405b366e66a2451",
+    "filter_failures": {
+      "positive_quotes": 0,
+      "non_crossed_quotes": 0,
+      "relative_spread": 0,
+      "positive_iv": 0,
+      "intrinsic_bound": 0,
+      "expiry_10_90": 0,
+      "moneyness_083_117": 0
+    },
+    "matches_source_panel": true
+  },
+  "test_episodes": {
+    "crash_test2018": 602,
+    "crash_test2020": 663,
+    "mix_test2022": 675,
+    "mix_test2024": 630
+  },
+  "reference_tables": {
+    "paper_sha256": "220be0524802c2a474fc878390449c38a603d6b9b2b6c61a7f57a3501a8d31ce",
+    "status": "PASS",
+    "comparison": "Reference CSV values rounded to the precision printed in paper Tables 1\u20135.",
+    "tables": {
+      "1": {
+        "numeric_entries_checked": 48,
+        "status": "PASS"
+      },
+      "2": {
+        "numeric_entries_checked": 108,
+        "status": "PASS"
+      },
+      "3": {
+        "numeric_entries_checked": 48,
+        "status": "PASS"
+      },
+      "4": {
+        "numeric_entries_checked": 72,
+        "status": "PASS"
+      },
+      "5": {
+        "numeric_entries_checked": 108,
+        "status": "PASS"
+      }
+    }
+  },
+  "scope": "The dataset specification, split sizes and published reference tables match the paper. Pretrained evaluation differences are recorded separately in pretrained_validation.json."
+}

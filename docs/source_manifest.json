@@ -1,0 +1,156 @@
+{
+  "sources": [
+    {
+      "source_package": "final_method",
+      "source": "new-reward/warm0_batch_replay.py",
+      "source_sha256": "b8e7df8ff61816f295c30a70938b3ce535a9079937a807c09ac103f88db0fca1",
+      "target": "new-reward/warm0_batch_replay.py",
+      "transformation": "Module documentation revised; executable code unchanged",
+      "target_sha256": "00a5400cdacb655fe1d19ce94e64ee7ff257beccab7ed889462c559e20332d26"
+    },
+    {
+      "source_package": "final_method",
+      "source": "new-reward/published_rules_4regime_replay.py",
+      "source_sha256": "06444bb0bc0fb4c859fbfdaccad32db3a6f8a2fb6d7c13621703ddbdc379fa48",
+      "target": "new-reward/published_rules_4regime_replay.py",
+      "transformation": "Module documentation revised; published-number regression made optional for new experiments; controller calculations unchanged; display label and summary field names use CTC",
+      "target_sha256": "ed61de4d86942ac087ed4136bed0f04ded4dafe5cafc066430388626e7bb5a57"
+    },
+    {
+      "source_package": "final_method",
+      "source": "new-reward/v13_sensitivity_replay.py",
+      "source_sha256": "44bdfb54790c0f4eaca5f2e66fc944cf046072b2c8d44ee20e32d0b0da4a40de",
+      "target": "new-reward/v13_sensitivity_replay.py",
+      "transformation": "Module documentation revised; executable code unchanged",
+      "target_sha256": "42a162a3fdaca519c402df799606ed4096c2f541622013df71cf4d4949663d5e"
+    },
+    {
+      "source_package": "final_method",
+      "source": "new-reward/robust_reanalysis.py",
+      "source_sha256": "d1fd1f9845c102c94c1df0d4fd95da4890c088dfb715e4e20e995ab9685c80d7",
+      "target": "new-reward/robust_reanalysis.py",
+      "transformation": "Module documentation revised; executable code unchanged",
+      "target_sha256": "dfeacc2876e419240346297d6a84c7d7b898b8e6a83116cc248bc435870967d4"
+    },
+    {
+      "source_package": "final_method",
+      "source": "new-reward/v12r_lineage_autorun.py",
+      "source_sha256": "8b4991ab50838bff1cf948e60891c82b823b43b0864b19a20b7e3778e133ab29",
+      "target": "new-reward/v12r_lineage_autorun.py",
+      "transformation": "Local repository discovery and IPython execution; hosted mounting removed; training, checkpoint verification and ledger calculations retained; updated notebook paths",
+      "target_sha256": "c5387e56ae82394880a80e4eeace133dc9db8431c763dc1614ca3d984a199c87"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p1_residual_cvar_primary_panel_and_baselines__tab1_tab2_colab.ipynb",
+      "source_sha256": "c948e1dede1004e800b3aa24f8b903137ae2a52cca634faf9783d6c89f20f518",
+      "target": "notebooks/01_train_policies_and_baselines.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "ef3ddf8d3ccc56978b4ba9c24f9295948d0892865e9a1b3ec2cc8b77fe2e0841"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/pE2_AUTORUN_all_regimes.ipynb",
+      "source_sha256": "cb8549259e0aa076728d31b7b86f2502a83101656f2ea8103e635044463fbbe5",
+      "target": "notebooks/05_three_arm_all_regimes.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "9cad74872be82752ef2d4a0e48ae243a2ef41179db8505cbfd9c80a967b6ca1d"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/pE2_indistribution_control__sec7_1_colab.ipynb",
+      "source_sha256": "286d12562d25417110fc71f6427ef052433ed575afe65d63c0be865755b4ed70",
+      "target": "notebooks/04_three_arm_setup.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "77a2cfd7256bfbc79e4dd476fa2ba6012ef5b531ae1a878e6e99f5b666ad86f9"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p2_conformal_guardrail_13rules_2022__tab3_tab4_colab.ipynb",
+      "source_sha256": "8da8455d9d90b04fd98c7ed482ed46694f314a4aa8cff0c97bae44cae4d1a0bd",
+      "target": "notebooks/02_compare_deployment_rules_2022.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "1154764789ee2e216a6ed37f4911c78b568e37996c58573d2e3a3067d7df743f"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p3_guardrail_firetest_panel_4regimes__tab5_tab6_colab.ipynb",
+      "source_sha256": "f02c33160c6edf6fcd63a33c956420c854d9c247a0ea2a34a97ce255ae3d2b77",
+      "target": "notebooks/03_evaluate_policy_arms.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "aa2efd0d6f06f0154caa0e1274b1fe584247e4121c59653bf81cdbca16cf2344"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p3_guardrail_firetest_panel_4regimes__tab5_tab6_colab_v12.ipynb",
+      "source_sha256": "bd756091cbc33ecbb44bcfedd2d9304b09c2be35be651dd25d60ca2514bb0bdd",
+      "target": "notebooks/06_common_budget_setup.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "56c66d0d44b3eb4095f12caa217748fe58b5c82e3ed08a5d3af950edfccab1fe"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p3_v12R_AUTORUN_all_regimes.ipynb",
+      "source_sha256": "f2cf050224dc73293b70703fdb67b77cadcaae2197f248482f1058719cbc6bd8",
+      "target": "notebooks/07_common_budget_all_regimes.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "090ae31bf390a7245101d4841e84af4d0195ca24859a5381981f7fb09a8a491a"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p4_robustness_tail_block_tc_turnover_eps__tab7_to_tab10_colab.ipynb",
+      "source_sha256": "94594198eee1bdbe1e70fbcda263ae55b092dedba5a70e2bccad2a08fd9ba734",
+      "target": "notebooks/08_robustness_2022.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "ef9e504ff958d241aeeb3b7051cbec0d46a8c9e4867d0a1e617f651f6d24cd4c"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p3_v13_warm0_batch_replay.ipynb",
+      "source_sha256": "aca5564a69f788b0e297a5e32d09d60ae3260cdf452410563a7221417c3c51af",
+      "target": "notebooks/09_replay_deployment.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "27ecf13cd0084b14a40211722ed990bc6a2b5cbb0983e7d0e5745bb80c163d38"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p5_published_rules_4regime__k2_beta0_colab.ipynb",
+      "source_sha256": "e7273e84721810c6b457d36a33ce9a61b34a79c7e9c87b899b27000281042b10",
+      "target": "notebooks/10_compare_published_rules.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "6cb868c472998b71a6a622829e58a165f4699bc004adb943d52707324dbd5a05"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p6_v13_controller_sensitivity_colab.ipynb",
+      "source_sha256": "a7daca3636d5981c41683977f4c4886a8d9b253d9f5d3e10554063c3a9b4cd87",
+      "target": "notebooks/11_controller_sensitivity.ipynb",
+      "transformation": "Notebook documentation and local setup revised; personal paths and obsolete actor dependencies removed; paths constructed by ctc_runtime.py; residual training and controller calculations retained; saved outputs cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "60a97798ee918aa56052adec343712a52dad681f115417347790e2738abf7f4f"
+    },
+    {
+      "source_package": "research_archive",
+      "source": "data/load_SPX_method.ipynb",
+      "source_sha256": "327749f1147bbe377537bb33cf009b64b98eb8b59c64a18c3aca9dab6263355c",
+      "target": "notebooks/00_prepare_data.ipynb",
+      "transformation": "Original cleaning filters retained; repository-relative defaults, input overrides and FRED Treasury support; saved outputs and runtime metadata cleared; reader-facing filenames and instructions; all execution metadata removed",
+      "target_sha256": "59d1e01c8cbc65ce42e80f1149945434743ad030e3ad1bb892a82d897ffff8a7"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p1_residual_cvar_primary_panel_and_baselines__tab1_tab2_colab.ipynb",
+      "source_sha256": "c948e1dede1004e800b3aa24f8b903137ae2a52cca634faf9783d6c89f20f518",
+      "target": "new-reward/residual_policy.py",
+      "transformation": "Residual-policy functions extracted from the p1 notebook; module documentation revised",
+      "target_sha256": "bba53971aeb11253c7a8a2907cf42de9a482c51c84b0f14b7c7f6a29499d28b2"
+    },
+    {
+      "source_package": "final_method",
+      "source": "notebooks/p1_residual_cvar_primary_panel_and_baselines__tab1_tab2_colab.ipynb",
+      "source_sha256": "c948e1dede1004e800b3aa24f8b903137ae2a52cca634faf9783d6c89f20f518",
+      "target": "new-reward/episode_evaluation.py",
+      "transformation": "Episode state, tensor packing and grid evaluation extracted from the p1 notebook; numerical expressions retained; rates supplied by caller",
+      "target_sha256": "04b7959007e37ff3948bfdd3f40ad68eee691342354d15ad4f6b81170a6107bd"
+    }
+  ]
+}
